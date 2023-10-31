@@ -1,0 +1,230 @@
+.side-menu{
+    height: 50vh !important;
+    position: fixed;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.menu{
+    /* background-color: white; */
+    border-radius: 10px;
+    padding: 2%;
+}
+.card{
+    border-radius: 10px;
+}
+.menu-item p{
+    color: black !important;
+}
+
+input{
+    background-color: white;
+    /* border-radius: 20px; */
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #cfd8dc;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b0bec5;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #90a4ae;
+  }
+body{
+    background-color: #ECEFF1;
+    box-sizing: border-box;
+}
+
+.left-sidebar{
+    border-radius: 20px;
+    height: 95vh;
+    background-color: #00BCD4;
+    background-color: black;
+}
+.settings-btn{
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+}
+.search-bar{
+    border-radius: 24px;
+    height: 64px;
+    background-color: #ffffff;
+}
+.cards-section{
+    border-radius: 24px;
+    margin-top: 15px;
+    height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.cards-section img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+  }
+
+.card-secton .item-title {
+    /* height:80px;  */
+    display:table-cell; 
+    vertical-align:bottom;
+    z-index: 9999;
+}
+.cart-section{
+
+    border-radius: 24px;
+    height: 95vh;
+    background-color: #ffffff;
+    padding: 10px 15px;
+}
+.added-item-list{
+    height: 85vh;
+    overflow-y: auto;
+}
+.input-section{
+    position: relative;
+    padding: 10px;
+    height: 100%;
+}
+.search-div{
+    position: absolute;
+    background-color: #00BCD4;
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 18%;
+    left: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-bar{ 
+    width: 90%;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.card-section{
+    background-color: #ffffff;
+    border-radius: 24px;
+    /* height: 330px;  */
+    overflow: hidden;
+}
+.cart-blocks{
+    /* display: none; */
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+.added-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECEFF1;
+    border-radius: 8px;
+    padding: 4px;
+    margin-top: 10px;
+}
+.subtract, .add{
+    border-radius: 8px;
+    height: 30px;
+    width: 25px;
+    background-color: #546E7A;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+}
+.value{
+    border-radius: 8px;
+    height: 30px;
+    width: 25px;
+    color: #546E7A;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-item{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 5px 5px;
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+    display: inline-block;
+}
+
+.item-details p{
+    font-size: 13px;
+}
+
+.total-section{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.submit-btn{
+    border-radius: 8px;
+    /* background-color: #00BCD4; */
+    background-color: black;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.print-btn{
+    border-radius: 8px;
+    /* background-color: #00BCD4; */
+    background-color: white;
+
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid black;
+    outline: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.clear-search-btn{
+    border: none;
+    border-radius: 20px;
+    display: none;
+}
+.category-section{
+    width: 100%;
+    overflow-wrap: anywhere;
+}

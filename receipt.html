@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="static/img/tanzy_icon.jpg" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="static/css/receipt.css">
+        <title>Tanzy's Restaurent</title>
+    </head>
+    <body>
+        <div class="ticket">
+            <center><img src="static/img/tanzy_icon.jpg" alt="Logo" class="logo"></center>
+            
+            <p class="centered"><b>Tanzy's Restaurant</b>
+                <br>Talagang Road, Chakwal
+                <br>03349469951
+            </p>
+            <hr>
+            <b>Order ID:</b><span id="orderId">0000000000000000</span><br>
+            <b>Order Datetime:</b><span id="orderDatetime">02-02-23</span><br>
+            <b>Order Details:</b>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Rate</th>
+                        <th>Qty.</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="orderItems">
+                    <tr>
+                        <td>Ice Chocolte</td>   
+                        <td>299</td>
+                        <td>1</td>
+                        <td>299</td>
+                    </tr>
+                    <tr>
+                        <td>Ice Chocolte</td>   
+                        <td>299</td>
+                        <td>1</td>
+                        <td>299</td>
+                    </tr>
+                    <tr>
+                        <td>Ice Chocolte</td>   
+                        <td>299</td>
+                        <td>1</td>
+                        <td>299</td>
+                    </tr>
+                    <th></th>
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Net Total</th>
+                        <td id="netTotal">0</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Service Charges (5%)</th>
+                        <td id="salesTax">0</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Discount (<span id="discountPercentetage">0</span>%)</th>
+                        <td id="discountAmount">0</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Grand Total</th>
+                        <td id="grandTotal">0</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="centered">Thanks for your purchase!</p>
+        </div>
+
+        <button id="btnPrint" class="hidden-print">Print</button>
+        <button id="btnPrint" class="hidden-print" onclick="goBack()">Back</button>
+        <!-- <a id="btnPrint" class="hidden-print" href="/burgershop"><button>Back</button></a> -->
+    </body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="static/js/receipt.js"></script>
