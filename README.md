@@ -1,4 +1,4 @@
-#POS Software - Cafe/Restaurant/Burger Shop Management System
+POS Software - Cafe/Restaurant/Burger Shop Management System
 This all-in-one Point of Sale (POS) system is designed for efficient management of cafes, restaurants, and burger shops. It features:
 
 Order Processing: Seamlessly handle customer orders with real-time tracking and updates.
